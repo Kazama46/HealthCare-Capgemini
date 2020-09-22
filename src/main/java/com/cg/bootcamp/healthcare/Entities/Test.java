@@ -1,6 +1,15 @@
 package com.cg.bootcamp.healthcare.Entities;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import com.sun.istack.NotNull;
+
+@Entity
 public class Test {
+	
+	@Id
+	@NotNull
 	private String testID;
 	private String testName;
 	

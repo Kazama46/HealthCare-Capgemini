@@ -17,6 +17,7 @@ public class Diagnostic_Center {
 	private String centerName;
 	
 	@Id @GeneratedValue(strategy = GenerationType.AUTO)
+	@NotNull
 	private String centerID;
 	
 	public List<Test> listofTests;
